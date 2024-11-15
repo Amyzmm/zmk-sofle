@@ -189,9 +189,9 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - CALCULATOR
   - $$mdi:mouse-left-click-outline$$
   - KP 0
   - KP DOT
   - KP EQUAL
   - KP DIVIDE
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
