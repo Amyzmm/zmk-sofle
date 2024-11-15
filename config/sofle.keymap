@@ -1,3 +1,4 @@
+
 #include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -73,10 +74,10 @@
 &trans     &bt BT_SEL 0      &bt BT_SEL 1     &bt BT_SEL 2      &bt BT_SEL 3    &bt BT_SEL 4       &mmv MOVE_DOWN   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9   &kp KP_PLUS       &none              &kp F12   
 &kp LSHFT  &bt BT_CLR        &bt BT_CLR_ALL   &soft_off         &sys_reset      &bootloader        &mmv MOVE_LEFT   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6   &kp KP_MINUS      &none              &kp &none 
 &trans     &out OUT_USB      &out OUT_BLE     &&rgb_ug RGB_ON   &rgb_ug RGB_OFF &none              &mmv MOVE_RIGHT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3   &kp KP_MULTIPLY   &none              &kp ENTER
-&kp C_MUTE &trans            &trans           &trans            &trans          &trans             &mkp LCLK        &kp BACKSPACE    &kp KP_NUMBER_0  &kp KP_DOT        &kp KP_ENTER      &kp KP_DIVIDE     
+&kp C_MUTE &trans            &trans           &trans            &trans          &trans             &mkp LCLK        &kp BACKSPACE    &kp KP_NUMBER_0  &kp KP_DOT        &kp KP_ENTER      &kp KP_DIVIDE  
             >;
 
-            display-name = "layer2";
+            display-name = "layer1";
             sensor-bindings = <&scroll_encoder>;
         };
     };
