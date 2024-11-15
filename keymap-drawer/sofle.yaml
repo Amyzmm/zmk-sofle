@@ -62,8 +62,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
   - $$mdi:apple-keyboard-command$$
   layer1:
   - $$mdi:keyboard-esc$$
@@ -86,11 +86,11 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - HOME
   - PG UP
+  - HOME
+  - $$mdi:arrow-up-bold$$
+  - END
   - Ins
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -99,10 +99,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - END
   - PG DN
-  - '}'
-  - '{'
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: '''', s: '"'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -112,8 +112,8 @@ layers:
   - RGB BRI
   - RGB BRD
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '[', s: '{'}
+  - '{'
   - {t: /, s: '?'}
   - KP DOT
   - {t: \, s: '|'}
@@ -127,8 +127,8 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ']', s: '}'}
+  - '}'
   - $$mdi:apple-keyboard-command$$
   '2':
   - $$mdi:keyboard-esc$$
