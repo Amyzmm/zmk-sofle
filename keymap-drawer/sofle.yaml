@@ -181,7 +181,7 @@ layers:
   - KP 2
   - KP 3
   - KP MULTIPLY
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - KP NUMLOCK
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - {type: held}
@@ -192,6 +192,6 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:backspace-reverse-outline$$
   - KP 0
-  - KP NUMLOCK
+  - KP 0
   - KP DOT
   - KP DIVIDE
