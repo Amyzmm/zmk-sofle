@@ -44,11 +44,11 @@
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1          &kp N2            &kp N3          &kp N4           &kp N5             &kp UP_ARROW     &kp N6           &kp N7           &kp N8            &kp N9            &kp N0             &kp GRAVE
+&kp ESC     &kp N1          &kp N2            &kp N3          &kp N4           &kp N5             &kp UP_ARROW     &kp N6           &kp N7           &kp N8            &kp N9            &kp N0             &kp BACKSPACE
 &kp TAB     &kp Q           &kp W             &kp E           &kp R            &kp T              &kp DOWN_ARROW   &kp Y            &kp U            &kp I             &kp O             &kp P              &kp BACKSPACE
 &kp LSHFT   &kp A           &kp S             &kp D           &kp F            &kp G              &kp LEFT_ARROW   &kp H            &kp J            &kp K             &kp L             &kp DOUBLE_QUOTES  &kp ENTER
-&kp LCTRL   &kp Z           &kp X             &kp C           &kp V            &kp B              &kp RIGHT_ARROW  &kp N            &kp M            &kp COMMA         &kp DOT           &kp QUESTION       &kp COLON   
-&kp C_MUTE  &kp LEFT_ALT    &mo 2             &mo 1           &kp SPACE        &kp SPACE          &kp ENTER        &kp DELETE       &kp RIGHT_ARROW   &kp LEFT_ARROW    &kp RIGHT_ARROW             &kp LEFT_GUI
+&kp LCTRL   &kp Z           &kp X             &kp C           &kp V            &kp B              &kp RIGHT_ARROW  &kp N            &kp M            &kp COMMA         &kp DOT           &kp QUESTION       &kp ENTER 
+&kp C_MUTE  &kp LEFT_GUI    &kp LEFT_ALT      &kp SPACE       &kp SPACE        &mo 1              &kp ENTER        &kp LEFT_ARROW   &kp SPACE        &kp COLON         &kp RIGHT_ARROW   &mo 2 
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -57,11 +57,11 @@
 
         layer_1 {
             bindings = <
-&kp ESC     &bt BT_SEL 0      &bt BT_SEL 1     &bt BT_SEL 2      &bt BT_SEL 3    &bt BT_SEL 4      &mmv MOVE_UP     &kp UNDERSCORE   &none            &none            &kp MINUS          &kp PLUS           &kp EQUAL
-&trans      &bt BT_CLR         &mkp LCLK        &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP      &kp HOME        &kp UP_ARROW     &kp END    &kp INSERT   &kp BACKSPACE
-&kp CAPS    &bt BT_CLR_ALL        &none            &none            &none            &mkp MB5           &mmv MOVE_LEFT  &kp PG_DN       &kp LEFT_ARROW        &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp SINGLE_QUOTE   &kp ENTER
-&trans      &none             &none           &none              &none                &none        &mmv MOVE_RIGHT  &kp LEFT_BRACKET  &kp LEFT_BRACE       &kp FSLH         &kp KP_DOT         &kp BSLH           &kp SEMICOLON
-&kp C_MUTE  &trans           &trans           &trans           &trans           &trans             &mkp LCLK        &kp DELETE       &kp RIGHT_ARROW  &kp RIGHT_BRACKET      &kp RIGHT_BRACE   &kp LEFT_GUI
+&kp GRAVE    &bt BT_SEL 0      &bt BT_SEL 1     &bt BT_SEL 2      &bt BT_SEL 3    &bt BT_SEL 4        &mmv MOVE_UP     &kp UNDERSCORE   &none            &none             &kp MINUS          &kp PLUS           &kp BACKSPACE
+&trans       &none             &mkp LCLK        &mkp MCLK         &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &kp UP_ARROW      &kp END            &kp INSERT         &kp DELETE
+&kp CAPS     &none             &none            &none             &none            &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT_ARROW   &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp SINGLE_QUOTE   &kp ENTER
+&trans       &none             &none            &none             &none            &none              &mmv MOVE_RIGHT  &kp LEFT_BRACKET &kp LEFT_BRACE   &kp FSLH          &kp KP_DOT         &kp BSLH           &kp EQUAL
+&kp C_MUTE   &trans            &trans           &trans            &trans           &trans             &mkp LCLK        &kp LEFT_ARROW   &kp SPACE        &kp SEMICOLON     &kp RIGHT_ARROW   &mo 2 
             >;
 
             display-name = "layer1";
@@ -70,10 +70,10 @@
 
         layer_2 {
             bindings = <
-&kp ESC    &kp F1            &kp F2           &kp F3            &kp F4          &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8            &kp F9            &kp F10            &kp F11  
-&trans      &out OUT_USB     &out OUT_BLE    &soft_off         &sys_reset      &bootloader   &mmv MOVE_DOWN   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9   &kp KP_PLUS       &kp F12            &kp BACKSPACE  
-&kp LSHFT &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD         &mmv MOVE_LEFT   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6   &kp KP_MINUS      &none              &kp ENTER
-&trans      &none           &none          &none        &rgb_ug RGB_ON   &rgb_ug RGB_OFF          &mmv MOVE_RIGHT   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3   &kp KP_MULTIPLY   &none              &kp ENTER
+&kp GRAVE   &kp F1            &kp F2           &kp F3            &kp F4          &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8            &kp F9            &kp F10       &kp BACKSPACE  
+&trans      &out OUT_USB     &out OUT_BLE    &soft_off         &sys_reset      &bootloader   &mmv MOVE_DOWN   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9   &kp KP_PLUS        &kp F11            &kp BACKSPACE  
+&kp LSHFT &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD         &mmv MOVE_LEFT   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6   &kp KP_MINUS      &kp F12              &kp ENTER
+&trans      &bt BT_CLR          &bt BT_CLR_ALL          &none        &rgb_ug RGB_ON   &rgb_ug RGB_OFF          &mmv MOVE_RIGHT   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3   &kp KP_MULTIPLY   &none              &kp ENTER
 &kp C_MUTE &trans            &trans           &trans            &trans          &trans             &mkp LCLK        &kp DELETE     &kp KP_NUMBER_0  &kp KP_DOT        &kp KP_ENTER      &kp KP_DIVIDE 
             >;
 
