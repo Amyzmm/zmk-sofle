@@ -128,7 +128,7 @@ layers:
   - '{'
   - '}'
   - {t: '''', s: '"'}
-  - $$mdi:arrow-right-bold$$
+  - KP DOT
   - $$mdi:apple-keyboard-command$$
   '2':
   - {t: '`', s: '~'}
@@ -192,6 +192,6 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:backspace-reverse-outline$$
   - '0'
-  - '0'
+  - LOCKING NUM
   - KP DOT
   - KP DIVIDE
