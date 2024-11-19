@@ -75,8 +75,8 @@
 &kp GRAVE   &kp F1            &kp F2            &kp F3            &kp F4           &kp F5             &mmv MOVE_UP     &kp F6              &kp F7              &kp F8               &kp F9            &kp F10         &kp BACKSPACE  
 &trans      &out OUT_USB      &out OUT_BLE      &soft_off         &sys_reset       &bootloader        &mmv MOVE_DOWN   &kp KP_NUMBER_7     &kp KP_NUMBER_8     &kp KP_NUMBER_9      &kp KP_PLUS       &kp F11         &kp BACKSPACE  
 &kp LSHFT   &rgb_ug RGB_EFF   &rgb_ug RGB_EFR   &rgb_ug RGB_SPI   &rgb_ug RGB_BRI  &rgb_ug RGB_BRD    &mmv MOVE_LEFT   &kp KP_NUMBER_4     &kp KP_NUMBER_5     &kp KP_NUMBER_6      &kp KP_MINUS      &kp F12         &kp ENTER
-&trans      &bt BT_CLR        &bt BT_CLR_ALL    &none             &rgb_ug RGB_ON   &rgb_ug RGB_OFF    &mmv MOVE_RIGHT  &kp KP_NUMBER_1     &kp KP_NUMBER_2     &kp KP_NUMBER_3      &kp KP_MULTIPLY   &none           &kp ENTER
-&kp C_MUTE  &trans            &trans            &trans            &trans           &trans             &mkp LCLK        &kp DELETE          &kp KP_NUMBER_0     &kp KP_NUMLOCK    &kp KP_DOT        &kp KP_DIVIDE 
+&trans      &bt BT_CLR        &bt BT_CLR_ALL    &none             &rgb_ug RGB_ON   &rgb_ug RGB_OFF    &mmv MOVE_RIGHT  &kp KP_NUMBER_1     &kp KP_NUMBER_2     &kp KP_NUMBER_3      &kp KP_MULTIPLY   &kp KP_NUMLOCK  &kp ENTER
+&kp C_MUTE  &trans            &trans            &trans            &trans           &trans             &mkp LCLK        &kp DELETE          &kp KP_NUMBER_0     &kp KP_NUMBER_0   &kp KP_DOT        &kp KP_DIVIDE 
             >;  
 
             sensor-bindings = <&scroll_encoder>;
