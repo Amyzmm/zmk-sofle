@@ -38,19 +38,13 @@
     };
 
     behaviors {
-        td0: td0 {
-            compatible = "zmk,behavior-tap-dance";
-            display-name = "LCLK/RCLK Tap Dance";
-            #binding-cells = <0>;
-            bindings = < &mkp LCLK >, < &mkp RCLK >;
-        };
-        mt0: mod_tap {
+        mt: mod_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
             bindings = <&mkp LCLK>, <&mkp RCLK>;
-            display-name = "CLK Mod-Tap";
+            display-name = "Mod-Tap";
         };
     };
 
@@ -89,7 +83,7 @@
 &kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &mmv MOVE_DOWN   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
 &kp CAPS    &kp A      &kp S         &kp D         &kp F   &kp G        &mmv MOVE_LEFT   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
 &kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B        &mmv MOVE_RIGHT  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &mt0             &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
+&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &mt             &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
